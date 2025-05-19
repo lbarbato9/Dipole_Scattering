@@ -33,7 +33,11 @@ wavelength sphere: Inhibition and enhancement of spontaneous emission. Physical
 Review A, 104(5):053524, 2021." & "R Ruppin. Decay of an excited molecule near a small metal sphere. The Journal
 of Chemical Physics, 76(4):1681–1684, 1982."
 
-3.The convalidation of the results has been done comparing our simulation with the ones coming from a numerical solver.
+3. The convalidation of the results has been done comparing our simulation with the ones coming from a numerical solver.
+
+
+
+  
 
 
 
