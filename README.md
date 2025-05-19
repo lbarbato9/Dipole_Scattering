@@ -1,4 +1,4 @@
-# Dipole Scattering
+# Electromagnetic Field radiated by a Dipole in the presence of a layered spherical structure: model of a system head-high permittivity material in Magnetic Resonance
 
 Ultra-High Field Magnetic Resonance Imaging (UHF MRI) refers to MRI systems
 operating at magnetic field strengths of 7 Tesla and above. In particular, UHF-MRI
@@ -22,3 +22,27 @@ since in that case the increase in loops does not influence the SNR.
 Electric dipoles, on the other hand, can be an interesting solution to explore,especially
 with high frequencies. That is why the analytical model has been implemented so far
 considering the field irradiated by electric dipoles
+
+1. Conversion from Mie Scattering to Inward-Outward Representation
+The Mie scattering has been studied extensively and an explanation of the mathematics behind this problem can be found in the following book : "Julius Adams Stratton. Electromagnetic theory, volume 33. John Wiley & Sons,
+2007". Starting from this theory the problem was reformulated considering the field as a superposition of progressive and regressive waves : "Giuseppe Ruello and Riccardo Lattanzi. Scattering from spheres: A new look into
+an old problem. Electronics, 10(2):216, 2021".
+
+2. Our contribution fits in the middle. Because the analytical method allows us to model the phenomenon of fields inside spherical geometries leaving out the Mie coefficients and using engineering parameters such as impedances and reflection coefficients.Considering this conversion we introduced an electric dipole as a field source and implemented everything on MATLAB. We used as startint point the following papers : "Jorge R Zurita-S´anchez. Anapole due to a tangentially polarized dipole near a sub-
+wavelength sphere: Inhibition and enhancement of spontaneous emission. Physical
+Review A, 104(5):053524, 2021." & "R Ruppin. Decay of an excited molecule near a small metal sphere. The Journal
+of Chemical Physics, 76(4):1681–1684, 1982."
+
+3.The convalidation of the results has been done comparing our simulation with the ones coming from a numerical solver.
+
+
+
+
+
+
+
+
+
+
+
+
