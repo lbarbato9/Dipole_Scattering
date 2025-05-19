@@ -36,15 +36,9 @@ of Chemical Physics, 76(4):1681–1684, 1982."
 3. The convalidation of the results has been done comparing our simulation with the ones coming from a numerical solver.
 
 
----To learn more about the theory, please follow the link below---
+---To learn more about the theory and results, please follow the link below---
 
 https://www.overleaf.com/project/66df1a8fdb4ccef9ec88defa
-
-  
-
-
-
-
 
 
 
